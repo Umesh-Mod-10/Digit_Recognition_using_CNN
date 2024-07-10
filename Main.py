@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
 from keras.metrics import SparseCategoricalCrossentropy
 from keras.layers import Input, Conv2D, MaxPool2D, Flatten, Dense
-from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau,ModelCheckpoint
+from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
 
 # %% Getting the dataset loaded:
 
